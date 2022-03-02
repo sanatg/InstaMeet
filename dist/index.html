@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.17e50649.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InstaMeet</title>
+  <script type="module" crossorigin src="/assets/index.2325b7c3.js"></script>
+  <link rel="modulepreload" href="/assets/vendor.25d5f69c.js">
+  <link rel="stylesheet" href="/assets/index.f58cc2e6.css">
+</head>
+
+<body>
+  <h1 class="title">INSTA MEET</h1>
+  <div class="videos">
+    <span>
+      <h3>You</h3>
+      <video id="webcamVideo" autoplay playsinline></video>
+    </span>
+    <span>
+      <h3>Someone Else</h3>
+      <video id="remoteVideo" autoplay playsinline></video>
+    </span>
+
+
+  </div>
+
+  <button id="webcamButton" class="button">Start webcam</button>
+  <h2>OR</h2>
+  <button id="callButton" disabled class="button">Create Call</button>
+
+  <h2>Answer the call from a different browser window or device</h2>
+
+  <input id="callInput" style="padding:0.3em; border: 1px solid #ccc;line-height: 1 " />
+  <button id="answerButton" disabled style="border: none; font-family: 'Syne Mono', monospace;background-color: #1a72e6; color: white; 
+    padding: 0.4em 2em;cursor: pointer;">Answer</button>
+
+  <h2>Hangup</h2>
+
+  <button id="hangupButton" disabled class="button hangup">Hangup Call</button>
+
+  
+
+</body>
+
+</html>
